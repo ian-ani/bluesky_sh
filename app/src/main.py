@@ -1,19 +1,19 @@
 # PYTHON VERSION: 3.12.7
 
-import back as b
+import core
 
 
 def main():
-    username, password = b.ask_credentials()
-    client = b.login(username, password)
+    username, password = core.ask_credentials()
+    client = core.login(username, password)
 
     actions = {
-        "1": lambda: b.send_post(client),
-        "2": lambda: b.send_post_image(client),
-        "3": lambda: b.timeline(client),
-        "4": lambda: b.profile_feed(client),
-        "5": lambda: b.profile_info(client),
-        "6": lambda: b.clear_screen()
+        "1": lambda: core.send_post(client),
+        "2": lambda: core.send_post_image(client),
+        "3": lambda: core.timeline(client),
+        "4": lambda: core.profile_feed(client),
+        "5": lambda: core.profile_info(client),
+        "6": lambda: core.clear_screen()
     }
 
     while True:

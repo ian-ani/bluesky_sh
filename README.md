@@ -7,6 +7,7 @@
 - [Built with](#Built-with)
 - [Usage](#Usage)
 - [Docker](#Docker)
+- [To Do](#To-Do)
 
 ## About the project
 
@@ -44,3 +45,7 @@ python main.py
 ```sh
 exit
 ```
+
+## To-Do
+
+- Search user by **did** and related features.

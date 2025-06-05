@@ -7,6 +7,7 @@
 - [Hecho con](#Hecho-con)
 - [Uso](#Uso)
 - [Docker](#Docker)
+- [Por hacer](#Por-hacer)
 
 ## Acerca de este repositorio
 
@@ -46,3 +47,6 @@ python main.py
 ```sh
 exit
 ```
+## Por hacer
+
+- Buscar un usuario mediante un **did** y funciones relacionadas.
